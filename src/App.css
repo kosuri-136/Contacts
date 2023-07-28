@@ -1,0 +1,51 @@
+/* Contact.js */
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: 5px 0;
+  width: 600px;
+  text-align: left;
+  border-radius: 20px;
+  background-color: rgb(0, 67, 98);
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.contact-image {
+  width: 150px;
+  height: 140px;
+  border-radius: 10%;
+  margin-right: 20px;
+  /* margin-top: 10px; */
+}
+
+.contact-details {
+  flex: 1;
+  margin-top: -20px;
+}
+
+.contact-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-info {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.show-age-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size:small;
+  font-weight: 200;
+}
+
